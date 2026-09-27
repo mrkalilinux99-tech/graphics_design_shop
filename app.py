@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from datetime import datetime
 import csv
 from pathlib import Path
+from flask import send_from_directory
 
 app = Flask(__name__)
 ORDERS = Path("orders.csv")
@@ -9,6 +10,10 @@ ORDERS = Path("orders.csv")
 @app.route("/")
 def home():
     return render_template("index.html")
+
+@app.route('/google20dc1fec3d6868a5.html')
+def google_verification():
+    return send_from_directory('.', 'google20dc1fec3d6868a5.html')
 
 @app.post("/api/order")
 def order():
@@ -36,3 +41,4 @@ def health():
 
 if __name__ == "__main__":
     app.run(debug=True, host="127.0.0.1", port=5000)
+
