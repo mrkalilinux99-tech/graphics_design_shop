@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>शारदाई ग्राफिक्स | Graphic Design & Digital Solutions</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="container nav">
+
+        <a href="#home" class="brand">
+            शारदाई <span>ग्राफिक्स</span>
+        </a>
+
+        <nav id="mainNav">
+
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#about">About</a>
+            <a href="#designs">Designs</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <button class="menu" onclick="toggleMenu()" aria-label="Open Menu">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HOME ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <p class="eyebrow">SHARDAAI GRAPHICS</p>
+
+        <h1>
+            Creative <span>Designs</span><br>
+            For Your Business
+        </h1>
+
+        <p class="lead">
+            Professional Graphic Design, Photo Editing,
+            Advertisement and Shop Banner Design.
+        </p>
+
+        <div class="actions">
+
+            <a href="#designs" class="hero-btn">
+                Explore Designs
+            </a>
+
+            <a href="#contact" class="secondary-btn">
+                Contact Us
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section id="services" class="services">
+
+    <div class="container">
+
+        <p class="eyebrow">WHAT WE DO</p>
+
+        <h2>Our Services</h2>
+
+        <p class="services-subtitle">
+            Professional creative services for your business
+        </p>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+
+                <div class="service-icon">🎨</div>
+
+                <h3>Graphic Design</h3>
+
+                <p>
+                    Creative and professional graphic designs
+                    for your brand.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">🖼️</div>
+
+                <h3>Photo Editing</h3>
+
+                <p>
+                    Professional photo editing and attractive
+                    image designs.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">📢</div>
+
+                <h3>Advertisement Design</h3>
+
+                <p>
+                    Eye-catching advertisements for your
+                    business and products.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">🏪</div>
+
+                <h3>Shop Banner Design</h3>
+
+                <p>
+                    Modern banners, posters and promotional
+                    designs for shops.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRICING ================= -->
+
+<section id="pricing" class="pricing-section">
+
+    <div class="container">
+
+        <p class="eyebrow">OUR PRICING</p>
+
+        <h2>Simple & Affordable Pricing</h2>
+
+        <p class="pricing-subtitle">
+            Professional design services at affordable prices
+        </p>
+
+
+        <div class="pricing-grid">
+
+
+            <!-- Graphic Design -->
+
+            <div class="price-card">
+
+                <div class="price-icon">🎨</div>
+
+                <h3>Graphic Design</h3>
+
+                <div class="price">
+                    ₹200
+                    <span>/ design</span>
+                </div>
+
+                <p>
+                    Creative and professional graphic design
+                    for your business.
+                </p>
+
+                <a
+                    href="https://wa.me/919022494650?text=Namaskar%20Shardaai%20Graphics%2C%20mujhe%20Graphic%20Design%20chahiye."
+                    target="_blank"
+                    class="price-btn">
+
+                    Order on WhatsApp
+
+                </a>
+
+            </div>
+
+
+            <!-- Photo Editing -->
+
+            <div class="price-card">
+
+                <div class="price-icon">🖼️</div>
+
+                <h3>Photo Editing</h3>
+
+                <div class="price">
+                    ₹300
+                    <span>/ photo</span>
+                </div>
+
+                <p>
+                    Professional photo editing and
+                    attractive image enhancement.
+                </p>
+
+                <a
+                    href="https://wa.me/919022494650?text=Namaskar%20Shardaai%20Graphics%2C%20mujhe%20Photo%20Editing%20chahiye."
+                    target="_blank"
+                    class="price-btn">
+
+                    Order on WhatsApp
+
+                </a>
+
+            </div>
+
+
+            <!-- Advertisement -->
+
+            <div class="price-card featured">
+
+                <div class="popular">
+                    POPULAR
+                </div>
+
+                <div class="price-icon">📢</div>
+
+                <h3>Advertisement</h3>
+
+                <div class="price">
+                    ₹1,000
+                    <span>/ 1 week</span>
+                </div>
+
+                <p>
+                    Complete 1-week advertisement package
+                    for your business promotion.
+                </p>
+
+                <a
+                    href="https://wa.me/919022494650?text=Namaskar%20Shardaai%20Graphics%2C%20mujhe%201-week%20Advertisement%20Package%20chahiye."
+                    target="_blank"
+                    class="price-btn">
+
+                    Order on WhatsApp
+
+                </a>
+
+            </div>
+
+
+            <!-- Shop Banner -->
+
+            <div class="price-card">
+
+                <div class="price-icon">🏪</div>
+
+                <h3>Shop Banner</h3>
+
+                <div class="price">
+                    ₹200
+                    <span>/ banner</span>
+                </div>
+
+                <p>
+                    Attractive banners and promotional
+                    designs for your shop.
+                </p>
+
+                <a
+                    href="https://wa.me/919022494650?text=Namaskar%20Shardaai%20Graphics%2C%20mujhe%20Shop%20Banner%20chahiye."
+                    target="_blank"
+                    class="price-btn">
+
+                    Order on WhatsApp
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="about-section">
+
+    <div class="container about-grid">
+
+        <div class="about-content">
+
+            <p class="eyebrow">
+                ABOUT US
+            </p>
+
+            <h2>
+                Creative Designs,
+                Made for Your Business
+            </h2>
+
+            <p>
+                <strong>शारदाई ग्राफिक्स</strong>
+                is a creative graphic design and digital
+                solutions service based in Akola, Maharashtra.
+            </p>
+
+            <p>
+                We provide professional Graphic Design,
+                Photo Editing, Advertisement Design and
+                Shop Banner Design at affordable prices.
+            </p>
+
+            <div class="about-points">
+
+                <div>✓ Creative & Professional Designs</div>
+                <div>✓ Affordable Pricing</div>
+                <div>✓ Fast Service</div>
+                <div>✓ Direct WhatsApp Support</div>
+
+            </div>
+
+            <a href="#contact" class="hero-btn">
+                Contact Us
+            </a>
+
+        </div>
+
+
+        <div class="about-card">
+
+            <div class="about-icon">
+                🎨
+            </div>
+
+            <h3>
+                शारदाई ग्राफिक्स
+            </h3>
+
+            <p>
+                Your Creative Design Partner
+            </p>
+
+            <div class="about-line"></div>
+
+            <span>
+                Graphic Design • Photo Editing
+            </span>
+
+            <span>
+                Advertisement • Shop Banner
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= DESIGNS ================= -->
+
+<section id="designs" class="designs-section">
+
+    <div class="container">
+
+        <p class="eyebrow">
+            OUR WORK
+        </p>
+
+        <h2>
+            Our Designs
+        </h2>
+
+        <p class="design-subtitle">
+            Some of our creative design work
+        </p>
+
+
+        <div class="design-gallery">
+
+
+            <div class="design-item">
+
+                <img
+                    src="{{ url_for('static', filename='images/advertise.jpeg') }}"
+                    alt="Advertisement Design"
+                    onclick="openImage(this.src)"
+                >
+
+            </div>
+
+
+            <div class="design-item">
+
+                <img
+                    src="{{ url_for('static', filename='images/machine.jpeg') }}"
+                    alt="Printing Machine"
+                    onclick="openImage(this.src)"
+                >
+
+            </div>
+
+
+            <div class="design-item">
+
+                <img
+                    src="{{ url_for('static', filename='images/Owner.jpeg') }}"
+                    alt="Owner"
+                    onclick="openImage(this.src)"
+                >
+
+            </div>
+
+
+            <div class="design-item">
+
+                <img
+                    src="{{ url_for('static', filename='images/shop_banner.jpeg') }}"
+                    alt="Shop Banner"
+                    onclick="openImage(this.src)"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact-section">
+
+    <div class="container">
+
+        <p class="eyebrow">
+            GET IN TOUCH
+        </p>
+
+        <h2>
+            संपर्क करें
+        </h2>
+
+        <p class="contact-subtitle">
+            Graphic Design और Printing के लिए हमसे संपर्क करें
+        </p>
+
+
+        <div class="contact-grid">
+
+
+            <div class="contact-info">
+
+                <h3>
+                    शारदाई ग्राफिक्स
+                </h3>
+
+                <p>
+                    📞 <strong>9022494650</strong>
+                </p>
+
+                <p>
+                    📞 <strong>8080480173</strong>
+                </p>
+
+                <p>
+                    📍 Akola, Maharashtra
+                </p>
+
+
+                <a
+                    href="https://wa.me/919022494650"
+                    target="_blank"
+                    class="whatsapp-btn">
+
+                    💬 WhatsApp पर संपर्क करें
+
+                </a>
+
+            </div>
+
+
+            <form
+                class="contact-form"
+                onsubmit="sendWhatsApp(event)"
+            >
+
+                <input
+                    type="text"
+                    id="customerName"
+                    placeholder="आपका नाम"
+                    required
+                >
+
+                <input
+                    type="tel"
+                    id="customerMobile"
+                    placeholder="Mobile Number"
+                    required
+                >
+
+                <textarea
+                    id="customerMessage"
+                    placeholder="आपको कौन-सी Design चाहिए?"
+                    rows="5"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Send Enquiry
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= IMAGE MODAL ================= -->
+
+<div
+    id="imageModal"
+    class="image-modal"
+    onclick="closeImage()"
+>
+
+    <span class="close-image">
+        &times;
+    </span>
+
+    <img
+        id="previewImage"
+        class="preview-image"
+        alt="Preview"
+        onclick="event.stopPropagation()"
+    >
+
+</div>
+
+
+<!-- ================= FLOATING WHATSAPP ================= -->
+
+<a
+    href="https://wa.me/919022494650"
+    target="_blank"
+    class="float-wa"
+    aria-label="WhatsApp">
+
+    💬
+
+</a>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-content">
+
+        <strong>
+            शारदाई ग्राफिक्स
+        </strong>
+
+        <span>
+            © 2026 All Rights Reserved.
+        </span>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+
+function toggleMenu() {
+
+    const nav = document.getElementById("mainNav");
+
+    nav.classList.toggle("mobile-open");
+
+}
+
+
+function openImage(imageSrc) {
+
+    const modal =
+        document.getElementById("imageModal");
+
+    const image =
+        document.getElementById("previewImage");
+
+    modal.style.display = "flex";
+
+    image.src = imageSrc;
+
+    document.body.style.overflow = "hidden";
+
+}
+
+
+function closeImage() {
+
+    const modal =
+        document.getElementById("imageModal");
+
+    modal.style.display = "none";
+
+    document.body.style.overflow = "auto";
+
+}
+
+
+function sendWhatsApp(event) {
+
+    event.preventDefault();
+
+    const name =
+        document.getElementById("customerName").value.trim();
+
+    const mobile =
+        document.getElementById("customerMobile").value.trim();
+
+    const message =
+        document.getElementById("customerMessage").value.trim();
+
+
+    const whatsappMessage =
+        "नमस्कार शारदाई ग्राफिक्स,%0A%0A" +
+        "नाम: " + encodeURIComponent(name) + "%0A" +
+        "Mobile: " + encodeURIComponent(mobile) + "%0A" +
+        "Design की जरूरत: " + encodeURIComponent(message);
+
+
+    const whatsappURL =
+        "https://wa.me/919022494650?text=" +
+        whatsappMessage;
+
+
+    window.open(
+        whatsappURL,
+        "_blank"
+    );
+
+}
+
+
+document.querySelectorAll("#mainNav a").forEach(function(link) {
+
+    link.addEventListener("click", function() {
+
+        document
+            .getElementById("mainNav")
+            .classList.remove("mobile-open");
+
+    });
+
+});
+
+
+document.addEventListener("keydown", function(event) {
+
+    if (event.key === "Escape") {
+
+        closeImage();
+
+    }
+
+});
+
+</script>
+
+
+</body>
+</html>

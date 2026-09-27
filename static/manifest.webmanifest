@@ -1,0 +1,10 @@
+{
+  "name": "Graphics Design Studio",
+  "short_name": "GD Studio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f7fb",
+  "theme_color": "#111827",
+  "description": "Graphics design shop website and installable web app.",
+  "icons": []
+}
