@@ -15,6 +15,15 @@ def home():
 def google_verification():
     return send_from_directory('.', 'google20dc1fec3d6868a5.html')
 
+@app.route('/sitemap.xml')
+def sitemap():
+    return '''<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://sharadaigraphics.onrender.com/</loc>
+    </url>
+</urlset>'''
+
 @app.post("/api/order")
 def order():
     data = request.get_json(silent=True) or {}
