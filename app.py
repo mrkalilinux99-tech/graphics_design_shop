@@ -11,9 +11,9 @@ ORDERS = Path("orders.csv")
 def home():
     return render_template("index.html")
 
-@app.route('/google45b9cae96692e633.html')
+@app.route('/google20dc1fec3d6868a5.html')
 def google_verification():
-    return send_from_directory('.', 'google45b9cae96692e633.html')
+    return send_from_directory('.', 'google20dc1fec3d6868a5.html')
 
 @app.post("/api/order")
 def order():
