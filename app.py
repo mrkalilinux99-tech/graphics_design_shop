@@ -1,8 +1,7 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, send_from_directory
 from datetime import datetime
 import csv
 from pathlib import Path
-from flask import send_from_directory
 
 app = Flask(__name__)
 ORDERS = Path("orders.csv")
@@ -17,12 +16,7 @@ def google_verification():
 
 @app.route('/sitemap.xml')
 def sitemap():
-    return '''<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://shardai-graphics.onrender.com/</loc>
-    </url>
-</urlset>'''
+    return send_from_directory('.', 'sitemap.xml', mimetype='application/xml')
 
 @app.post("/api/order")
 def order():
